@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27AF6D6542900D2B59046CAB /* Pods_FirebaseSocialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE678B9516E248B63E1D974F /* Pods_FirebaseSocialLogin.framework */; };
+		9B45B2001E1B907800762260 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B45B1FF1E1B907800762260 /* GoogleService-Info.plist */; };
+		9B72D7631E1B6492000EDAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B72D7621E1B6492000EDAC8 /* AppDelegate.swift */; };
+		9B72D7651E1B6492000EDAC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B72D7641E1B6492000EDAC8 /* ViewController.swift */; };
+		9B72D7681E1B6492000EDAC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B72D7661E1B6492000EDAC8 /* Main.storyboard */; };
+		9B72D76A1E1B6492000EDAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B72D7691E1B6492000EDAC8 /* Assets.xcassets */; };
+		9B72D76D1E1B6492000EDAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B72D76B1E1B6492000EDAC8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA36EEA615BC1A527D298D0 /* Pods-FirebaseSocialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSocialLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSocialLogin/Pods-FirebaseSocialLogin.release.xcconfig"; sourceTree = "<group>"; };
+		9B45B1FE1E1B7BFC00762260 /* FirebaseSocialLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseSocialLogin.entitlements; sourceTree = "<group>"; };
+		9B45B1FF1E1B907800762260 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B72D75F1E1B6492000EDAC8 /* FirebaseSocialLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseSocialLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B72D7621E1B6492000EDAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B72D7641E1B6492000EDAC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B72D7671E1B6492000EDAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B72D7691E1B6492000EDAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B72D76C1E1B6492000EDAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B72D76E1E1B6492000EDAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4417E6DA0C4292E1352D118 /* Pods-FirebaseSocialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseSocialLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseSocialLogin/Pods-FirebaseSocialLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		AE678B9516E248B63E1D974F /* Pods_FirebaseSocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseSocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B72D75C1E1B6492000EDAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AF6D6542900D2B59046CAB /* Pods_FirebaseSocialLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ACC947AE600010F98CC4977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE678B9516E248B63E1D974F /* Pods_FirebaseSocialLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B72D7561E1B6492000EDAC8 = {
+			isa = PBXGroup;
+			children = (
+				9B72D7611E1B6492000EDAC8 /* FirebaseSocialLogin */,
+				9B72D7601E1B6492000EDAC8 /* Products */,
+				CD1453C2A65BD92C44D2172A /* Pods */,
+				3ACC947AE600010F98CC4977 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B72D7601E1B6492000EDAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B72D75F1E1B6492000EDAC8 /* FirebaseSocialLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B72D7611E1B6492000EDAC8 /* FirebaseSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				9B45B1FE1E1B7BFC00762260 /* FirebaseSocialLogin.entitlements */,
+				9B72D7621E1B6492000EDAC8 /* AppDelegate.swift */,
+				9B72D7641E1B6492000EDAC8 /* ViewController.swift */,
+				9B72D7661E1B6492000EDAC8 /* Main.storyboard */,
+				9B72D7691E1B6492000EDAC8 /* Assets.xcassets */,
+				9B72D76B1E1B6492000EDAC8 /* LaunchScreen.storyboard */,
+				9B72D76E1E1B6492000EDAC8 /* Info.plist */,
+				9B45B1FF1E1B907800762260 /* GoogleService-Info.plist */,
+			);
+			path = FirebaseSocialLogin;
+			sourceTree = "<group>";
+		};
+		CD1453C2A65BD92C44D2172A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4417E6DA0C4292E1352D118 /* Pods-FirebaseSocialLogin.debug.xcconfig */,
+				4AA36EEA615BC1A527D298D0 /* Pods-FirebaseSocialLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B72D75E1E1B6492000EDAC8 /* FirebaseSocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B72D7711E1B6492000EDAC8 /* Build configuration list for PBXNativeTarget "FirebaseSocialLogin" */;
+			buildPhases = (
+				656A38E62E36A7604B17C53C /* [CP] Check Pods Manifest.lock */,
+				9B72D75B1E1B6492000EDAC8 /* Sources */,
+				9B72D75C1E1B6492000EDAC8 /* Frameworks */,
+				9B72D75D1E1B6492000EDAC8 /* Resources */,
+				CD02835D9FA3F2356B4B7C8E /* [CP] Embed Pods Frameworks */,
+				BAD84956F31ECC2DD5E01820 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseSocialLogin;
+			productName = FirebaseSocialLogin;
+			productReference = 9B72D75F1E1B6492000EDAC8 /* FirebaseSocialLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B72D7571E1B6492000EDAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = gipark;
+				TargetAttributes = {
+					9B72D75E1E1B6492000EDAC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 82FFZQCWB3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9B72D75A1E1B6492000EDAC8 /* Build configuration list for PBXProject "FirebaseSocialLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B72D7561E1B6492000EDAC8;
+			productRefGroup = 9B72D7601E1B6492000EDAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B72D75E1E1B6492000EDAC8 /* FirebaseSocialLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B72D75D1E1B6492000EDAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B72D76D1E1B6492000EDAC8 /* LaunchScreen.storyboard in Resources */,
+				9B45B2001E1B907800762260 /* GoogleService-Info.plist in Resources */,
+				9B72D76A1E1B6492000EDAC8 /* Assets.xcassets in Resources */,
+				9B72D7681E1B6492000EDAC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		656A38E62E36A7604B17C53C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD84956F31ECC2DD5E01820 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSocialLogin/Pods-FirebaseSocialLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD02835D9FA3F2356B4B7C8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseSocialLogin/Pods-FirebaseSocialLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B72D75B1E1B6492000EDAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B72D7651E1B6492000EDAC8 /* ViewController.swift in Sources */,
+				9B72D7631E1B6492000EDAC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B72D7661E1B6492000EDAC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B72D7671E1B6492000EDAC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B72D76B1E1B6492000EDAC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B72D76C1E1B6492000EDAC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B72D76F1E1B6492000EDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B72D7701E1B6492000EDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B72D7721E1B6492000EDAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4417E6DA0C4292E1352D118 /* Pods-FirebaseSocialLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseSocialLogin/FirebaseSocialLogin.entitlements;
+				DEVELOPMENT_TEAM = 82FFZQCWB3;
+				INFOPLIST_FILE = FirebaseSocialLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.FirebaseSocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B72D7731E1B6492000EDAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA36EEA615BC1A527D298D0 /* Pods-FirebaseSocialLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseSocialLogin/FirebaseSocialLogin.entitlements;
+				DEVELOPMENT_TEAM = 82FFZQCWB3;
+				INFOPLIST_FILE = FirebaseSocialLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.academy.FirebaseSocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B72D75A1E1B6492000EDAC8 /* Build configuration list for PBXProject "FirebaseSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B72D76F1E1B6492000EDAC8 /* Debug */,
+				9B72D7701E1B6492000EDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B72D7711E1B6492000EDAC8 /* Build configuration list for PBXNativeTarget "FirebaseSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B72D7721E1B6492000EDAC8 /* Debug */,
+				9B72D7731E1B6492000EDAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B72D7571E1B6492000EDAC8 /* Project object */;
+}
